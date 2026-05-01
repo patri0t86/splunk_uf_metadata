@@ -1,4 +1,4 @@
-# uf_syslog_metadata
+# splunk_uf_metadata
 
 A Splunk Universal Forwarder app that dynamically tags syslog data with the receiving host's hostname via the `_meta` field.
 
@@ -30,4 +30,4 @@ MONITOR_PATH="/var/log"
 
 ## Installation
 
-Deploy this app to `$SPLUNK_HOME/etc/apps/uf_syslog_metadata` and restart the forwarder. The script will self-configure on first startup.
+Deploy this app to `$SPLUNK_HOME/etc/apps/splunk_uf_metadata` and restart the forwarder. The script will self-configure on first startup.
